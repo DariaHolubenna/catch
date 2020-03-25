@@ -2,7 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
-require('../controls/dbFunction');
+const modelFind = require('../controls/dbFunction');
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
